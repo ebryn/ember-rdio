@@ -1,0 +1,30 @@
+{
+  "name": "ember-rdio-w-ember-cli",
+  "APIMethod": "stub",
+  "version": "0.0.0",
+  "private": true,
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "ember server",
+    "build": "ember build",
+    "test": "ember test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefanpenner/ember-cli.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "broccoli-env": "0.0.1",
+    "ember-cli" : "0.0.23",
+    "originate": "~0.1.5",
+    "broccoli-template": "~0.1.1"
+  }
+}

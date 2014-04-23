@@ -1,0 +1,35 @@
+html, body {
+  /*margin: 20px;*/
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  margin-right: 10px;
+  border-right: 1px solid #ccc;
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+}
+
+.nav li {
+  padding: 4px;
+}
+
+.active {
+  background-color: #ccc;
+}

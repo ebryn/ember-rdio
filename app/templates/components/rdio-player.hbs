@@ -1,0 +1,7 @@
+{{#unless isPlaying}}
+  <button {{action "play"}}>Play</button>
+{{else}}
+  <button {{action "pause"}}>Pause</button>
+{{/unless}}
+
+{{format-time currentTime}}

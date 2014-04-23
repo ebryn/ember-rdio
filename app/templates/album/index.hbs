@@ -1,0 +1,5 @@
+<ol>
+  {{#each tracks}}
+    <li>{{rdio-player trackId=id}} {{link-to name "album.track" this}}</li>
+  {{/each}}
+</ol>
